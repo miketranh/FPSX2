@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class Enemy : MonoBehaviour {
+
 	public float hitPoints = 100f;
 	public void ReceiveDamage(float amt){
 		hitPoints -= amt;

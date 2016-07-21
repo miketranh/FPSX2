@@ -49,10 +49,12 @@
      <Compile Include="Assets\Attack.cs" />
      <Compile Include="Assets\Bullets.cs" />
      <Compile Include="Assets\DesertFortressPack\Scripts\open_door.cs" />
+     <Compile Include="Assets\EndBox.cs" />
      <Compile Include="Assets\Enemy.cs" />
      <Compile Include="Assets\FPSShooting.cs" />
      <Compile Include="Assets\PlayScoreList.cs" />
      <Compile Include="Assets\ScoreBoard.cs" />
+     <Compile Include="Assets\Timer.cs" />
      <Compile Include="Assets\Utils.cs" />
      <Compile Include="Assets\Windowmanager.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
@@ -77,7 +79,7 @@
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/mike/Documents/FPSX2/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/miketranh/Desktop/FPSX2/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.7/Standalone/UnityEngine.UI.dll</HintPath>

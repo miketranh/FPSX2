@@ -1,23 +1,27 @@
 ﻿using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
 public class ScoreBoard : MonoBehaviour {
+	private int _score = 100;
 	//Multiple Score with Username
 	Dictionary<string, Dictionary<string, int>> playerScores;
 
+	public int score {
+		get {
+			return (_score);
+		}
+		set {
+			_score = value;
+		}
+	}
+
 	void Start(){
-		SetScore("Marine","kills", 90);
-		SetScore("Marine1","kills", 10);
-		SetScore("Marine2","kills", 90);
-		SetScore("Marine3","kills", 9);
-		SetScore("Marine4","kills", 2);
-		SetScore("Marine5","kills", 91);
-
-		Debug.Log( GetScore("Marine","kills"));
-
+		SetScore("Marine1","kill",10);
 
 	}
+
 	void Init(){
 		if (playerScores != null)
 			return;

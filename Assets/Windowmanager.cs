@@ -4,9 +4,10 @@ using System.Collections;
 public class Windowmanager : MonoBehaviour {
 	public GameObject scoreBoard;
 
+
 	// Use this for initialization
 	void Start () {
-		scoreBoard = GameObject.Find ("Scoreboard panel");
+		//scoreBoard = GameObject.Find ("Scoreboard panel");
 	
 	}
 	

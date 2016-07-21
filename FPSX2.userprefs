@@ -1,13 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayScoreList.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Timer.cs">
     <Files>
-      <File FileName="Assets\Bullets.cs" Line="32" Column="5" />
-      <File FileName="Assets\Attack.cs" Line="1" Column="1" />
-      <File FileName="Assets\FPSShooting.cs" Line="1" Column="1" />
-      <File FileName="Assets\Enemy.cs" Line="1" Column="1" />
-      <File FileName="Assets\ScoreBoard.cs" Line="49" Column="38" />
-      <File FileName="Assets\PlayScoreList.cs" Line="29" Column="25" />
+      <File FileName="Assets\ScoreBoard.cs" Line="21" Column="33" />
+      <File FileName="Assets\PlayScoreList.cs" Line="25" Column="34" />
+      <File FileName="Assets\Windowmanager.cs" Line="16" Column="37" />
+      <File FileName="Assets\Enemy.cs" Line="5" Column="2" />
+      <File FileName="Assets\Utils.cs" Line="1" Column="1" />
+      <File FileName="Assets\Timer.cs" Line="9" Column="33" />
+      <File FileName="Assets\EndBox.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
